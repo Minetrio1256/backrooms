@@ -93,6 +93,21 @@
           }
         ]
       }
+    },
+    {
+      "name": "Hall",
+      "type": "structure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hall",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/backrooms/worldgen/structure/hall.json",
+          "src/main/resources/data/backrooms/worldgen/structure_set/hall.json",
+          "src/main/resources/data/backrooms/worldgen/template_pool/hall.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],

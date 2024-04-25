@@ -22,4 +22,6 @@ public class BackroomsModBlocks {
 	public static final RegistryObject<Block> FLOOR_1 = REGISTRY.register("floor_1", () -> new Floor1Block());
 	public static final RegistryObject<Block> ROOF_1 = REGISTRY.register("roof_1", () -> new Roof1Block());
 	public static final RegistryObject<Block> LIGTH_1 = REGISTRY.register("ligth_1", () -> new Ligth1Block());
+	// Start of user code block custom blocks
+	// End of user code block custom blocks
 }

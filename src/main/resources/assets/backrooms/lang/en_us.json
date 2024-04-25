@@ -3,5 +3,6 @@
   "item_group.backrooms.backrooms": "Backrooms",
   "block.backrooms.ligth_1": "Ligth 1",
   "block.backrooms.wallslevel_1": "Walls level 1",
-  "block.backrooms.roof_1": "Roof 1"
+  "block.backrooms.roof_1": "Roof 1",
+  "biome.backrooms.level_0": "Level 0"
 }

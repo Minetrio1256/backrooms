@@ -12,6 +12,7 @@
           "src/main/java/net/minetrio1256/backrooms/block/Wallslevel1Block.java",
           "src/main/resources/assets/backrooms/models/item/wallslevel_1.json",
           "src/main/resources/assets/backrooms/blockstates/wallslevel_1.json",
+          "src/main/resources/data/backrooms/loot_tables/blocks/wallslevel_1.json",
           "src/main/resources/assets/backrooms/models/block/wallslevel_1.json"
         ]
       }
@@ -39,7 +40,8 @@
           "src/main/java/net/minetrio1256/backrooms/block/Floor1Block.java",
           "src/main/resources/assets/backrooms/models/block/floor_1.json",
           "src/main/resources/assets/backrooms/blockstates/floor_1.json",
-          "src/main/resources/assets/backrooms/models/item/floor_1.json"
+          "src/main/resources/assets/backrooms/models/item/floor_1.json",
+          "src/main/resources/data/backrooms/loot_tables/blocks/floor_1.json"
         ]
       }
     },
@@ -55,7 +57,8 @@
           "src/main/resources/assets/backrooms/models/item/roof_1.json",
           "src/main/java/net/minetrio1256/backrooms/block/Roof1Block.java",
           "src/main/resources/assets/backrooms/models/block/roof_1.json",
-          "src/main/resources/assets/backrooms/blockstates/roof_1.json"
+          "src/main/resources/assets/backrooms/blockstates/roof_1.json",
+          "src/main/resources/data/backrooms/loot_tables/blocks/roof_1.json"
         ]
       }
     },
@@ -71,6 +74,7 @@
           "src/main/resources/assets/backrooms/models/item/ligth_1.json",
           "src/main/java/net/minetrio1256/backrooms/block/Ligth1Block.java",
           "src/main/resources/assets/backrooms/blockstates/ligth_1.json",
+          "src/main/resources/data/backrooms/loot_tables/blocks/ligth_1.json",
           "src/main/resources/assets/backrooms/models/block/ligth_1.json"
         ]
       }
@@ -108,17 +112,34 @@
           "src/main/resources/data/backrooms/worldgen/template_pool/hall.json"
         ]
       }
+    },
+    {
+      "name": "Level0",
+      "type": "biome",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "level_0",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/backrooms/worldgen/biome/level_0.json",
+          "src/main/resources/data/backrooms/worldgen/configured_feature/level_0_tree.json",
+          "src/main/resources/data/backrooms/worldgen/placed_feature/level_0_tree.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
+  "tag_elements": {},
   "language_map": {
     "en_us": {
       "block.backrooms.floor_1": "Floor 1",
       "item_group.backrooms.backrooms": "Backrooms",
       "block.backrooms.ligth_1": "Ligth 1",
       "block.backrooms.wallslevel_1": "Walls level 1",
-      "block.backrooms.roof_1": "Roof 1"
+      "block.backrooms.roof_1": "Roof 1",
+      "biome.backrooms.level_0": "Level 0"
     }
   },
   "foldersRoot": {
@@ -132,15 +153,13 @@
     "author": "paul, MCreator",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",
-    "disableForgeVersionCheck": true,
     "serverSideOnly": false,
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.20.1",
-    "modElementsPackage": "net.minetrio1256.backrooms",
-    "lockBaseModFiles": false
+    "modElementsPackage": "net.minetrio1256.backrooms"
   },
-  "mcreatorVersion": 202300452316
+  "mcreatorVersion": 202400115821
 }

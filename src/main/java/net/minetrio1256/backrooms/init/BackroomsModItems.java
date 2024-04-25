@@ -21,6 +21,8 @@ public class BackroomsModItems {
 	public static final RegistryObject<Item> ROOF_1 = block(BackroomsModBlocks.ROOF_1);
 	public static final RegistryObject<Item> LIGTH_1 = block(BackroomsModBlocks.LIGTH_1);
 
+	// Start of user code block custom items
+	// End of user code block custom items
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
 	}

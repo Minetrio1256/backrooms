@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "backrooms:blocks/ligth_1",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "backrooms:ligth_1"
+        }
+      ]
+    }
+  ]
+}

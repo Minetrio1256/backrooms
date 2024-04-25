@@ -1,5 +1,5 @@
 {
-  "_fv": 57,
+  "_fv": 60,
   "_type": "structure",
   "definition": {
     "structure": "testing",
@@ -13,11 +13,14 @@
     "separation": 2,
     "restrictionBiomes": [
       {
-        "value": "#is_overworld"
+        "value": "CUSTOM:Level0"
       }
     ],
     "surfaceDetectionType": "WORLD_SURFACE_WG",
     "terrainAdaptation": "none",
-    "generationStep": "SURFACE_STRUCTURES"
+    "generationStep": "SURFACE_STRUCTURES",
+    "size": 1,
+    "maxDistanceFromCenter": 64,
+    "jigsawPools": []
   }
 }
